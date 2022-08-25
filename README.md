@@ -14,3 +14,5 @@ By default the app comes up in reciprocal mode. To switch to factorial mode inst
 The f command steps through figures which have been used in my paper "Antplot: Visualising Long Binary Strings Using a Variation of Langton's Ant". Please feel free to generate your own antplots, and experiment with the source code. The length of the calculations is governed by the #define at the top of Alu.h. The default value of 2048 means that we effectively have a 131072-bit ALU. Increasing this value will affect execution speed though.
 
 The calculations of e and pi are not particularly optimal, but they seem to work OK for the purposes of generating their antplots.
+
+For more example antplots, and an explanation of the algorithm, see https://antplots.wordpress.com
